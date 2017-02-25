@@ -1,0 +1,28 @@
+.post
+{
+       margin-top:60px;
+       clear: both;
+       overflow: hidden;
+
+       .blog-content
+       {
+              margin-bottom: 40px;
+       }
+
+       & .post-infos
+       {
+              margin-bottom:15px;
+       }
+
+       & img
+       {
+              max-width: 360px;
+              height:auto;
+
+       }
+
+       & .blog-resume
+       {
+              //float: left;
+       }
+}

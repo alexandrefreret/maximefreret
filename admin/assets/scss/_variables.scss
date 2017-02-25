@@ -1,0 +1,126 @@
+$gris : #37474F;
+$rouge : #F72F5E;
+$blanc_clair : #F6F8F7;
+$blanc : #fff;
+$bleu : #5D7BF7;
+$vert : #46BE8A;
+$color_link : #b0bec5;
+$color_link_hover : #263238;
+$submenu_hover : #161e22;
+$color : #757575;
+/*Fonction*/
+
+.button
+{
+       padding: 4px 0px 4px 20px;
+       border: 1px solid;
+       margin: 0 5px 0 0px;
+       display: inline-block;
+       text-decoration: none;
+       border-radius: 25px;
+       min-width: 150px;
+       text-align: center;
+       -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+       -webkit-transition: all 0.3s ;
+       transition: all 0.3s;
+
+       &:hover, &:active, &:focus
+       {
+              text-decoration:none;
+       }
+
+       & span
+       {
+              width: 70%;
+              display: inline-block;
+       }
+
+       & i
+       {
+              border-left: 1px solid;
+              float: right;
+              line-height: 23px;
+              width: 30%;
+       }
+}
+
+
+.button-default
+{
+       border-color: $color_link_hover;
+       background: transparent;
+       color:$color_link_hover;
+
+       &:hover
+       {
+              background: $color_link_hover;
+              color:$blanc;
+       }
+}
+
+.button-bleu
+{
+       border-color: $bleu;
+       background: transparent;
+       color:$bleu;
+
+       &:hover
+       {
+              background: $bleu;
+              color:$blanc;
+       }
+}
+
+
+.button-vert
+{
+       border-color: $vert;
+       background: transparent;
+       color:$vert;
+
+       &:hover
+       {
+              background: $vert;
+              color:$blanc;
+       }
+}
+
+
+.button-rouge
+{
+       border-color: $rouge;
+       background: transparent;
+       color:$rouge;
+
+       &:hover
+       {
+              background: $rouge;
+              color:$blanc;
+       }
+}
+
+@mixin transition($prop)
+{
+       -moz-transition: $prop;
+       -o-transition: $prop;
+       -webkit-transition: $prop ;
+       transition: $prop;
+}
+
+
+@mixin border-radius($radius)
+{
+       -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+       border-radius: $radius;
+}
+
+@mixin transform($props)
+{
+       -webkit-transform: $props;
+       -moz-transform: $props;
+       -ms-transform: $props;
+       -o-transform: $props;
+       transform: $props;
+}

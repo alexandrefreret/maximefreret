@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+RewriteRule ^(admin)(.*)$ index.php?path=admin/ [QSA,L]
+RewriteRule ^(.*)$ index.php?path=front/ [QSA,L]

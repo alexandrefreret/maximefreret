@@ -1,0 +1,47 @@
+.profil-wrapper
+{
+       display: inline-block;
+       width: 100%;
+       padding: 0;
+       color: #757575;
+       background-color: #dedede;
+
+       & .profil-image
+       {
+              display: inline-block;
+              width: 100%;
+              margin: 0 0 15px 0;
+              text-align: center;
+
+              & img
+              {
+                     display: inline-block;
+                     width: 100%;
+                     height: auto;
+                     margin: 0 auto;
+                     background-color: #999;
+                     -webkit-border-radius: 0;
+                     -moz-border-radius: 0;
+                     border-radius: 0;
+              }
+       }
+
+       & .profil-name
+       {
+              display: inline-block;
+              width: 100%;
+              text-align: center;
+
+              & h3
+              {
+                     margin: 10px 0 5px 0;
+                     font-size: 23px;
+                     text-align: center;
+              }
+
+              & .profil-title
+              {
+                     color: $color;
+              }
+       }
+}

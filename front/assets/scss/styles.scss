@@ -1,0 +1,49 @@
+@import "bootstrap";
+@import "fontawesome";
+@import "owlcarousel";
+@import "variables";
+@import "menu";
+@import "home";
+
+
+html,body
+{
+       font-family: 'Roboto', serif;
+       font-size: 14px;
+}
+
+img
+{
+       //max-width: 100%;
+       width: auto;
+       height: auto;
+}
+
+h2
+{
+       text-align:center;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       position:relative;
+
+       padding-bottom: 11px;
+       font-weight: 700;
+       margin-bottom:60px;
+
+       &:after
+       {
+              content: "";
+              width: 100px;
+              height: 4px;
+              background-color: $primary;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              left: 0;
+              margin: auto;
+       }
+}
+
+@import "lg";
+@import "sm";
+@import "xs";

@@ -1,0 +1,31 @@
+$primary : #47b977;
+$primary_hover : #3C9C64;
+$secondary: #B94F47;
+$secondary_hover : #6C1A14;
+//$secondary: #3393bf;
+
+
+@mixin transition($prop)
+{
+       -moz-transition: $prop;
+       -o-transition: $prop;
+       -webkit-transition: $prop ;
+       transition: $prop;
+}
+
+
+@mixin border-radius($radius)
+{
+       -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+       border-radius: $radius;
+}
+
+@mixin transform($props)
+{
+       -webkit-transform: $props;
+       -moz-transform: $props;
+       -ms-transform: $props;
+       -o-transform: $props;
+       transform: $props;
+}

@@ -1,0 +1,15 @@
+<div class="col-xs-12">
+    <section class="box">
+        <header class="panel-header">
+            <h2 class="title pull-left">Statistiques</h2>
+            <div class="actions panel_actions pull-right">
+                <i class="box_toggle fa fa-chevron-down"></i>
+                <i class="box_close fa fa-times"></i>
+            </div>
+        </header>
+
+        <div class="content-body">
+            <div class="pt45"></div>
+        </div>
+    </section>
+</div>

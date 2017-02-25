@@ -1,0 +1,58 @@
+header
+{
+       height: 120px;
+       border-bottom: 2px solid $secondary;
+       position: relative;
+
+       & .header-logo
+       {
+              height:100%;
+              display: block;
+              text-align: center;
+              padding-top: 20px;
+       }
+
+
+       & .navbar
+       {
+              border-radius: 0;
+       }
+
+
+       & .nav.navbar-nav
+       {
+              padding-top: 40px;
+              margin-right : 120px;
+
+              & li
+              {
+                     & a
+                     {
+                            padding:10px 20px;
+                            color : $secondary;
+                            text-decoration: none;
+                            font-weight: 500;
+                            font-size: 16px;
+
+                            &:hover
+                            {
+                                   text-decoration: none;
+                                   background: none;
+                                   color: $secondary_hover;
+
+                                   &:after
+                                   {
+                                          content : "";
+                                          background:$secondary_hover;
+                                          height:2px;
+                                          width: 70%;
+                                          position: absolute;
+                                          bottom : 0;
+                                          left: 50%;
+                                          @include transform(translateX(-50%));
+                                   }
+                            }
+                     }
+              }
+       }
+}
