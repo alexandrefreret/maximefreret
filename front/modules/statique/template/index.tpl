@@ -43,7 +43,7 @@
                     Asperiores cum doloribus eaque, eveniet harum ipsa maiores molestiae mollitia nihil, quis quisquam repudiandae
                     soluta ullam! Cupiditate natus omnis optio repudiandae? Veniam?
                 </p>
-            </div>
+            </div> 
         </div>
 
     </div>
